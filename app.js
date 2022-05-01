@@ -11,7 +11,8 @@ mongoose.connect(process.env.MONGO_URI);
 /* RUTAS VARIAS: */
 app.use(bodyparser.urlencoded({extended: false}));
 app.use("/public", express.static(__dirname + "/public"));
-app.use("/bootstrap", express.static(__dirname + "/node_modules/bootstrap/dist/css"));
+app.use("/bootstrap", express.static(__dirname + "/node_modules/bootstrap"));
+app.use("/jquery", express.static(__dirname + "/node_modules/jquery/dist"));
 
 app.get("/", function(req, res){
     res.sendFile(__dirname + "/public/inicio/inicio.html");
