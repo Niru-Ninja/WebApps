@@ -1,12 +1,13 @@
 <!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="/public/css/main.css" />
+        <link rel="stylesheet" href="/public/mail/consultas.css" />
     </head>
     <body>
         <div class="centrado">
             <h3>Consultas</h3>
             <p>Por favor, complete sus datos y a la brevedad nos comunicaremos con usted</p>
-            <form id="form_consultas" action="/email" method="post">
+            <form class="formCentrado" action="/email" method="post">
                 <input id="nombre" class="form_item" name="nombre" type="text" placeholder="Nombre *" required/>
                 <input id="apellido" class="form_item" name="apellido" type="text" placeholder="Apellido *" required/>
                 <input id="telefono" class="form_item" name="telefono" type="number" placeholder="Teléfono *" required/>

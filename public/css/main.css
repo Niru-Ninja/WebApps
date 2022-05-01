@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
 .centrado {
     position: absolute;
     top: 50%;
@@ -10,20 +16,16 @@
     align-items: center;
 }
 
-h3, p{
-    margin-top: 0px;
-}
-
-#form_consultas {
+.formCentrado {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 500px;     
 }
 
-#consulta {
-    resize: none;
+h3, p{
+    margin-top: 0px;
 }
 
 .form_item {

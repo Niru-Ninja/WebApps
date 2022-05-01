@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <link rel="stylesheet" href="/public/css/main.css" />
     </head>
     <body>
         <div class="centrado">
             <h3>Reseñas</h3>
             <p>Deje su opinion sobre los servicios prestados</p>
-            <form id="form_consultas" action="/comentario-send" method="post">
+            <form class="formCentrado" action="/comentario-send" method="post">
                 <input id="nombre" class="form_item" name="nombre" type="text" placeholder="Nombre *" required/>
                 <input id="apellido" class="form_item" name="apellido" type="text" placeholder="Apellido *" required/>
                 <input id="puntuacion" class="form_item" name="puntuacion" type="number" min="1" max="5" placeholder="Puntuacion (Número del 1 al 5)*" required/>
