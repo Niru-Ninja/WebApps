@@ -4,6 +4,11 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.navbarLogo {
+    height: 50px;
+    width: auto;
+}
+
 .centrado {
     position: absolute;
     top: 50%;
