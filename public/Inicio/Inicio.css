@@ -41,6 +41,15 @@ html, body {
     padding: 0;
 }
 
+#carouselExampleControls{
+    height: 500x;
+    width: 500px;
+    top: 20%;
+    left: 20%;
+    bottom: 20%;
+    padding: 0;
+}
+
 .item-carousel{
     height: 500px;
 }
