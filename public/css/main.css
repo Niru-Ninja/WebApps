@@ -1,0 +1,33 @@
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, p{
+    margin-top: 0px;
+}
+
+#form_consultas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#consulta {
+    resize: none;
+}
+
+.form_item {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}

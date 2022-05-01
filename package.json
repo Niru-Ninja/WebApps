@@ -1,0 +1,24 @@
+{
+  "name": "gasista",
+  "version": "1.0.0",
+  "description": "Testing some webaps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Niru",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^4.6.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.1",
+    "nodemailer": "^6.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
