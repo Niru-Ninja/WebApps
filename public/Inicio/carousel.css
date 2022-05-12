@@ -1,11 +1,23 @@
 #myCarousel {
     margin: auto;
-    height: auto;
     width: 800px;
 }
 
+.carousel-inner{
+    height: 750px;
+}
+
+.item {
+    height: 100%;
+    overflow: hidden;
+}
+    /*margin-top: 20%;
+    margin-bottom: 10%;
+    overflow: hidden;
+}*/
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 70%;
+    width: 100%;
     margin: auto;
   }
