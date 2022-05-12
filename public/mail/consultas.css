@@ -1,3 +1,8 @@
+#box_consultas{
+    position: relative !important;
+    margin-top: 400px;
+}
+
 #consulta {
     resize: none;
 }
